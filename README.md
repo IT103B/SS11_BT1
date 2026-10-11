@@ -16,7 +16,7 @@ Hai điều kiện `if (updatedData.isActive)` và `if (updatedData.powerWatts)`
 ## Chạy thử
 
 ```sh
-node solution_ex1.js
+node app.js
 ```
 
-Tệp in kết quả cập nhật ra Console và xuất `findDeviceById` cùng `updateDevice` để có thể tái sử dụng.
+`app.js` là tệp mã nguồn được sửa theo yêu cầu; `solution_ex1.js` là bản nộp theo tên quy định. Cả hai in kết quả cập nhật ra Console và xuất `findDeviceById` cùng `updateDevice` để có thể tái sử dụng.

@@ -10,6 +10,7 @@ const updateDevice = (devices, targetId, updatedData) => {
     targetDevice.name = updatedData.name;
   }
 
+  // Check whether a value was provided, not whether it is truthy: false and 0 are valid updates.
   if (updatedData.isActive !== undefined) {
     targetDevice.isActive = updatedData.isActive;
   }
